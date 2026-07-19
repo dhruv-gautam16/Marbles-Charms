@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Marble Charms — Handmade Bag & Phone Charms</title>
+<meta name="description" content="Personalised bag and phone charms, handmade with love. Order straight over WhatsApp.">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Fredoka:wght@500;600;700&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream: #FDF3EF;
+    --cream-soft: #FFF9F6;
+    --wine: #8B2E4D;
+    --wine-deep: #6E2440;
+    --pink: #F4B8D1;
+    --pink-soft: #FCE4EE;
+    --pink-line: #F0C7D8;
+    --gold: #E7B84E;
+    --ink: #55293A;
+    --white: #FFFFFF;
+    --shadow: 0 10px 30px rgba(139,46,77,0.12);
+  }
+
+  * { box-sizing: border-box; }
+
+  html { scroll-behavior: smooth; }
+
+  body{
+    margin:0;
+    background: var(--cream);
+    color: var(--ink);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  a { color: inherit; }
+
+  img { max-width: 100%; display:block; }
+
+  .display{
+    font-family: 'Caveat', cursive;
+    font-weight: 700;
+  }
+
+  .heading{
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 600;
+    color: var(--wine);
+  }
+
+  .eyebrow{
+    font-family: 'Fredoka', sans-serif;
+    font-size: 0.75rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--wine);
+    opacity: 0.75;
+  }
+
+  .wrap{
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  :focus-visible{
+    outline: 3px solid var(--gold);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+
+  /* ---------- Header ---------- */
+  header{
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: rgba(253,243,239,0.9);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--pink-line);
+  }
+
+  .nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 14px 0;
+    gap: 16px;
+  }
+
+  .brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    text-decoration:none;
+  }
+
+  .brand img{
+    width:48px;
+    height:48px;
+    border-radius:50%;
+    border: 2px solid var(--wine);
+    background: var(--white);
+  }
+
+  .brand-name{
+    font-family:'Caveat', cursive;
+    font-weight:700;
+    font-size: 1.7rem;
+    color: var(--wine);
+    line-height:1;
+  }
+
+  .brand-sub{
+    display:block;
+    font-family:'Quicksand';
+    font-size: 0.62rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--ink);
+    opacity:0.6;
+  }
+
+  nav.links{
+    display:flex;
+    gap: 26px;
+    list-style:none;
+    margin:0;
+    padding:0;
+    font-family:'Fredoka';
+    font-weight:500;
+    font-size:0.95rem;
+  }
+
+  nav.links a{
+    text-decoration:none;
+    color: var(--wine-deep);
+    position:relative;
+    padding-bottom:3px;
+  }
+  nav.links a:hover{ color: var(--wine); }
+
+  .wa-btn{
+    display:inline-flex;
+    align-items:center;
+    gap:8px;
+    background: var(--wine);
+    color: var(--white);
+    font-family:'Fredoka';
+    font-weight:600;
+    font-size:0.9rem;
+    text-decoration:none;
+    padding: 10px 18px;
+    border-radius: 999px;
+    box-shadow: var(--shadow);
+    transition: transform 0.15s ease, background 0.15s ease;
+    white-space:nowrap;
+  }
+  .wa-btn:hover{ background: var(--wine-deep); transform: translateY(-2px); }
+  .wa-btn svg{ width:16px; height:16px; flex-shrink:0; }
+
+  .wa-btn.ghost{
+    background: transparent;
+    color: var(--wine);
+    border: 2px solid var(--wine);
+    box-shadow:none;
+  }
+  .wa-btn.ghost:hover{ background: var(--pink-soft); }
+
+  .menu-toggle{
+    display:none;
+    background:none;
+    border:none;
+    color: var(--wine);
+    font-size:1.6rem;
+    cursor:pointer;
+  }
+
+  /* ---------- Hero ---------- */
+  .hero{
+    position:relative;
+    padding: 64px 0 40px;
+    overflow:hidden;
+  }
+
+  .hero-inner{
+    display:grid;
+    grid-template-columns: 1.1fr 1fr;
+    gap: 40px;
+    align-items:center;
+  }
+
+  .hero h1{
+    font-size: clamp(2.6rem, 5vw, 4.4rem);
+    line-height: 1.05;
+    margin: 6px 0 18px;
+    color: var(--wine);
+  }
+
+  .hero p.lead{
+    font-size: 1.15rem;
+    max-width: 42ch;
+    margin: 0 0 28px;
+    color: var(--ink);
+  }
+
+  .hero-ctas{
+    display:flex;
+    gap:14px;
+    flex-wrap:wrap;
+  }
+
+  /* Charm rack — signature element */
+  .charm-rack{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top: 30px;
+  }
+
+  .rack-bar{
+    position:absolute;
+    top: 28px;
+    left: 6%;
+    right: 6%;
+    height: 6px;
+    background: var(--wine);
+    border-radius: 999px;
+    box-shadow: 0 2px 0 rgba(139,46,77,0.25);
+  }
+
+  .rack-bar::before, .rack-bar::after{
+    content:"";
+    position:absolute;
+    top:-6px;
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    background: var(--wine);
+  }
+  .rack-bar::before{ left:-9px; }
+  .rack-bar::after{ right:-9px; }
+
+  .charms-row{
+    position:relative;
+    display:flex;
+    justify-content:space-between;
+    width: 100%;
+    padding: 0 2%;
+    margin-top: 34px;
+  }
+
+  .charm{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    background:none;
+    border:none;
+    cursor:pointer;
+    padding:0;
+    font: inherit;
+    transform-origin: top center;
+    animation: swing 4.5s ease-in-out infinite;
+  }
+  .charm:nth-child(1){ animation-delay: 0s; }
+  .charm:nth-child(2){ animation-delay: .3s; }
+  .charm:nth-child(3){ animation-delay: .6s; }
+  .charm:nth-child(4){ animation-delay: .9s; }
+  .charm:nth-child(5){ animation-delay: 1.2s; }
+
+  .charm .thread{
+    width:2px;
+    height:26px;
+    background: var(--wine);
+    opacity:0.55;
+  }
+  .charm .ring{
+    width:12px;
+    height:12px;
+    border-radius:50%;
+    border: 2px solid var(--wine);
+    background: var(--cream-soft);
+    margin-bottom:-2px;
+  }
+
+  .charm .bauble{
+    width:58px;
+    height:58px;
+    border-radius: 50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:1.5rem;
+    box-shadow: var(--shadow);
+    border: 2px solid var(--white);
+  }
+  .charm:nth-child(1) .bauble{ background: var(--pink); }
+  .charm:nth-child(2) .bauble{ background: var(--gold); }
+  .charm:nth-child(3) .bauble{ background: var(--wine); }
+  .charm:nth-child(4) .bauble{ background: var(--pink-soft); border-color: var(--pink); }
+  .charm:nth-child(5) .bauble{ background: var(--gold); }
+
+  .charm .label{
+    margin-top:8px;
+    font-family:'Fredoka';
+    font-size: 0.72rem;
+    color: var(--wine-deep);
+    text-align:center;
+    max-width: 70px;
+  }
+
+  @keyframes swing{
+    0%, 100% { transform: rotate(-4deg); }
+    50% { transform: rotate(4deg); }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .charm{ animation: none; }
+  }
+
+  .sparkle{
+    position:absolute;
+    color: var(--gold);
+    font-size: 1.2rem;
+    opacity:0.8;
+  }
+
+  /* ---------- Scallop divider ---------- */
+  .scallop{
+    width:100%;
+    height: 34px;
+    display:block;
+    margin-top: -2px;
+  }
+
+  /* ---------- Section shared ---------- */
+  section{ padding: 70px 0; }
+  .section-head{
+    text-align:center;
+    max-width: 620px;
+    margin: 0 auto 44px;
+  }
+  .section-head h2{
+    font-size: 2.1rem;
+    margin: 8px 0 12px;
+  }
+  .section-head p{
+    margin:0;
+    color: var(--ink);
+    opacity:0.85;
+  }
+
+  /* ---------- Shop ---------- */
+  .shop{ background: var(--white); }
+
+  .shop-grid{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 26px;
+  }
+
+  .product-card{
+    position:relative;
+    background: var(--cream-soft);
+    border: 1px solid var(--pink-line);
+    border-radius: 22px;
+    padding: 34px 20px 24px;
+    text-align:center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .product-card:hover{
+    transform: translateY(-6px);
+    box-shadow: var(--shadow);
+  }
+
+  .product-card .loop{
+    position:absolute;
+    top: -14px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 26px;
+    height: 26px;
+    border-radius:50%;
+    border: 4px solid var(--wine);
+    background: var(--cream);
+  }
+
+  .product-card .icon{
+    width:78px;
+    height:78px;
+    margin: 0 auto 16px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 2rem;
+    background: var(--pink-soft);
+  }
+  .product-card:nth-child(2) .icon{ background: var(--pink); }
+  .product-card:nth-child(3) .icon{ background: var(--gold); opacity:0.9; }
+  .product-card:nth-child(4) .icon{ background: var(--pink-soft); }
+
+  .product-card h3{
+    font-family:'Fredoka';
+    color: var(--wine);
+    font-size: 1.15rem;
+    margin: 0 0 8px;
+  }
+
+  .product-card p{
+    font-size: 0.92rem;
+    color: var(--ink);
+    opacity: 0.85;
+    margin: 0 0 20px;
+    min-height: 44px;
+  }
+
+  .order-link{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    font-family:'Fredoka';
+    font-weight:600;
+    font-size: 0.85rem;
+    color: var(--wine);
+    text-decoration:none;
+    border-bottom: 2px solid var(--gold);
+    padding-bottom:2px;
+  }
+  .order-link:hover{ color: var(--wine-deep); }
+
+  /* ---------- Story ---------- */
+  .story{
+    background: var(--cream);
+  }
+  .story-inner{
+    display:grid;
+    grid-template-columns: 0.8fr 1.2fr;
+    gap: 50px;
+    align-items:center;
+  }
+
+  .story-portrait{
+    display:flex;
+    justify-content:center;
+  }
+
+  .story-portrait .frame{
+    width: 240px;
+    height: 240px;
+    border-radius:50%;
+    border: 3px solid var(--wine);
+    padding: 10px;
+    background: var(--white);
+    box-shadow: var(--shadow);
+  }
+  .story-portrait .frame img{
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+  .story-text .eyebrow{ display:block; margin-bottom:10px; }
+  .story-text h2{ font-size: 2rem; margin: 0 0 16px; }
+  .story-text p{ margin: 0 0 16px; line-height:1.7; }
+  .story-text p:last-child{ margin-bottom:0; }
+
+  /* ---------- How to order ---------- */
+  .order-steps{
+    background: var(--pink-soft);
+  }
+
+  .steps-grid{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+    counter-reset: step;
+  }
+
+  .step{
+    background: var(--white);
+    border-radius: 20px;
+    padding: 30px 24px;
+    position:relative;
+    box-shadow: var(--shadow);
+  }
+
+  .step .num{
+    font-family:'Caveat';
+    font-weight:700;
+    font-size: 2.6rem;
+    color: var(--gold);
+    line-height:1;
+    display:block;
+    margin-bottom: 10px;
+  }
+
+  .step h3{
+    font-family:'Fredoka';
+    color: var(--wine);
+    font-size: 1.05rem;
+    margin: 0 0 8px;
+  }
+  .step p{ margin:0; font-size:0.92rem; opacity:0.85; line-height:1.6; }
+
+  .order-cta{
+    text-align:center;
+    margin-top: 40px;
+  }
+
+  /* ---------- Footer ---------- */
+  footer{
+    background: var(--wine);
+    color: var(--pink-soft);
+    padding: 50px 0 26px;
+  }
+
+  .footer-inner{
+    display:grid;
+    grid-template-columns: 1.2fr 1fr 1fr;
+    gap: 36px;
+    margin-bottom: 36px;
+  }
+
+  footer .brand-name{ color: var(--white); }
+  footer .foot-tagline{
+    font-family:'Caveat';
+    font-size: 1.3rem;
+    color: var(--gold);
+    margin: 10px 0 0;
+  }
+
+  footer h4{
+    font-family:'Fredoka';
+    color: var(--white);
+    font-size: 0.95rem;
+    margin: 0 0 14px;
+    letter-spacing: 0.02em;
+  }
+
+  footer .foot-brand{
+    display:flex;
+    align-items:center;
+    gap:12px;
+  }
+  footer .foot-brand img{
+    width:44px; height:44px; border-radius:50%;
+    border: 2px solid var(--pink-soft);
+  }
+
+  footer ul{
+    list-style:none;
+    margin:0; padding:0;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    font-size:0.92rem;
+  }
+  footer a{ text-decoration:none; color: var(--pink-soft); }
+  footer a:hover{ color: var(--white); }
+
+  .footer-bottom{
+    border-top: 1px solid rgba(255,255,255,0.15);
+    padding-top: 22px;
+    text-align:center;
+    font-size: 0.8rem;
+    opacity: 0.75;
+  }
+
+  /* ---------- Floating WhatsApp ---------- */
+  .float-wa{
+    position: fixed;
+    bottom: 22px;
+    right: 22px;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: var(--wine);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow: 0 8px 24px rgba(139,46,77,0.35);
+    z-index: 60;
+    text-decoration:none;
+    transition: transform 0.15s ease;
+  }
+  .float-wa:hover{ transform: scale(1.07); }
+  .float-wa svg{ width:26px; height:26px; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 900px){
+    .hero-inner{ grid-template-columns: 1fr; }
+    .story-inner{ grid-template-columns: 1fr; text-align:center; }
+    .story-text p{ text-align:left; }
+    .shop-grid{ grid-template-columns: repeat(2, 1fr); }
+    .steps-grid{ grid-template-columns: 1fr; }
+    .footer-inner{ grid-template-columns: 1fr; }
+    nav.links{ display:none; }
+    .menu-toggle{ display:block; }
+  }
+
+  @media (max-width: 560px){
+    .shop-grid{ grid-template-columns: 1fr; }
+    .charm .label{ display:none; }
+    .charms-row{ padding: 0; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Marble Charms home">
+      <img src="assets/logo.png" alt="Marble Charms logo, a puppy wearing a bow">
+      <span>
+        <span class="brand-name">Marble Charms</span>
+        <span class="brand-sub">Handmade &amp; Personalised</span>
+      </span>
+    </a>
+    <nav class="links" aria-label="Main navigation">
+      <a href="#shop">Shop</a>
+      <a href="#story">Our Story</a>
+      <a href="#order">How to Order</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="wa-btn" id="nav-wa" href="#" target="_blank" rel="noopener">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.4 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.2 5.1 1.2 5.5 0 10-4.4 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.1 3.6 13.6 3.6 12 3.6 7.3 7.4 3.6 12 3.6s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2z"/></svg>
+      Chat on WhatsApp
+    </a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <div>
+        <span class="eyebrow">One post, nine followers, endless sparkle</span>
+        <h1 class="display">Every bag &amp; phone<br>deserves a little sparkle</h1>
+        <p class="lead">Personalised charms, handmade with love — pick your favourite and order in one WhatsApp message.</p>
+        <div class="hero-ctas">
+          <a class="wa-btn" id="hero-wa" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.4 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.2 5.1 1.2 5.5 0 10-4.4 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.1 3.6 13.6 3.6 12 3.6 7.3 7.4 3.6 12 3.6s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2z"/></svg>
+            Order on WhatsApp
+          </a>
+          <a class="wa-btn ghost" href="#shop">See the charms</a>
+        </div>
+      </div>
+
+      <div class="charm-rack" aria-hidden="false">
+        <span class="sparkle" style="top:-6px; left:8%;">&#10024;</span>
+        <span class="sparkle" style="top:10px; right:6%;">&#10024;</span>
+        <div class="rack-bar"></div>
+        <div class="charms-row">
+          <button class="charm" data-item="Bag Charm">
+            <span class="thread"></span><span class="ring"></span>
+            <span class="bauble">&#128092;</span>
+            <span class="label">Bag Charm</span>
+          </button>
+          <button class="charm" data-item="Phone Charm">
+            <span class="thread"></span><span class="ring"></span>
+            <span class="bauble">&#128241;</span>
+            <span class="label">Phone Charm</span>
+          </button>
+          <button class="charm" data-item="Keychain Charm">
+            <span class="thread"></span><span class="ring"></span>
+            <span class="bauble">&#128477;&#65039;</span>
+            <span class="label">Keychain</span>
+          </button>
+          <button class="charm" data-item="Custom Charm">
+            <span class="thread"></span><span class="ring"></span>
+            <span class="bauble">&#128156;</span>
+            <span class="label">Custom</span>
+          </button>
+          <button class="charm" data-item="Beaded Charm">
+            <span class="thread"></span><span class="ring"></span>
+            <span class="bauble">&#10024;</span>
+            <span class="label">Beaded</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <svg class="scallop" viewBox="0 0 1200 34" preserveAspectRatio="none">
+      <path d="M0,0 Q15,34 30,0 Q45,34 60,0 Q75,34 90,0 Q105,34 120,0 Q135,34 150,0 Q165,34 180,0 Q195,34 210,0 Q225,34 240,0 Q255,34 270,0 Q285,34 300,0 Q315,34 330,0 Q345,34 360,0 Q375,34 390,0 Q405,34 420,0 Q435,34 450,0 Q465,34 480,0 Q495,34 510,0 Q525,34 540,0 Q555,34 570,0 Q585,34 600,0 Q615,34 630,0 Q645,34 660,0 Q675,34 690,0 Q705,34 720,0 Q735,34 750,0 Q765,34 780,0 Q795,34 810,0 Q825,34 840,0 Q855,34 870,0 Q885,34 900,0 Q915,34 930,0 Q945,34 960,0 Q975,34 990,0 Q1005,34 1020,0 Q1035,34 1050,0 Q1065,34 1080,0 Q1095,34 1110,0 Q1125,34 1140,0 Q1155,34 1170,0 Q1185,34 1200,0 L1200,34 L0,34 Z" fill="#ffffff"/>
+    </svg>
+  </section>
+
+  <!-- SHOP -->
+  <section class="shop" id="shop">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">The Shop</span>
+        <h2 class="heading">Charms for every strap, string &amp; strand</h2>
+        <p>Every piece is made to order — tap a charm to tell us what you're dreaming of.</p>
+      </div>
+
+      <div class="shop-grid">
+        <article class="product-card">
+          <span class="loop"></span>
+          <div class="icon">&#128092;</div>
+          <h3>Bag Charms</h3>
+          <p>Clip-on charms to dress up totes, backpacks &amp; everyday bags.</p>
+          <a class="order-link" data-item="Bag Charm" href="#">Order this &#8594;</a>
+        </article>
+
+        <article class="product-card">
+          <span class="loop"></span>
+          <div class="icon">&#128241;</div>
+          <h3>Phone Charms</h3>
+          <p>Sweet little charms for your phone strap or case ring.</p>
+          <a class="order-link" data-item="Phone Charm" href="#">Order this &#8594;</a>
+        </article>
+
+        <article class="product-card">
+          <span class="loop"></span>
+          <div class="icon">&#128477;&#65039;</div>
+          <h3>Keychain Charms</h3>
+          <p>Give your keys some personality with a charm of their own.</p>
+          <a class="order-link" data-item="Keychain Charm" href="#">Order this &#8594;</a>
+        </article>
+
+        <article class="product-card">
+          <span class="loop"></span>
+          <div class="icon">&#128156;</div>
+          <h3>Custom &amp; Personalised</h3>
+          <p>Initials, colours, or your own idea — designed just for you.</p>
+          <a class="order-link" data-item="Custom Charm" href="#">Order this &#8594;</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- STORY -->
+  <section class="story" id="story">
+    <div class="wrap story-inner">
+      <div class="story-portrait">
+        <div class="frame">
+          <img src="assets/logo.png" alt="Marble the dog, mascot of Marble Charms">
+        </div>
+      </div>
+      <div class="story-text">
+        <span class="eyebrow">Our Story</span>
+        <h2 class="heading">Meet Marble, the face behind the charms</h2>
+        <p>Marble Charms started as a tiny side table of beads, bows and jump rings — now it's a one-person, one-dog studio making charms meant to be noticed.</p>
+        <p>Every charm is handmade in small batches, which means no two are ever quite the same, and every personalised order gets the same care as the very first one.</p>
+        <p>No storefront, no checkout page — just a chat. Tell us what you're picturing, and we'll make it real.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW TO ORDER -->
+  <section class="order-steps" id="order">
+    <div class="wrap">
+      <div class="section-head">
+        <span class="eyebrow">How to Order</span>
+        <h2 class="heading">Three steps, one chat</h2>
+        <p>There's no cart here — just a conversation. Here's how it works.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step">
+          <span class="num">01</span>
+          <h3>Pick your charm</h3>
+          <p>Browse the shop above and find the one you love — or dream up your own design.</p>
+        </div>
+        <div class="step">
+          <span class="num">02</span>
+          <h3>Message on WhatsApp</h3>
+          <p>Tap "Order on WhatsApp" and tell us which charm, colours, and any personal touches.</p>
+        </div>
+        <div class="step">
+          <span class="num">03</span>
+          <h3>We handcraft &amp; send it</h3>
+          <p>Your charm is made fresh to order, then carefully packed and shipped your way.</p>
+        </div>
+      </div>
+
+      <div class="order-cta">
+        <a class="wa-btn" id="order-wa" href="#" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.4 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.2 5.1 1.2 5.5 0 10-4.4 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.1 3.6 13.6 3.6 12 3.6 7.3 7.4 3.6 12 3.6s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2z"/></svg>
+          Start the chat
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact">
+  <div class="wrap footer-inner">
+    <div>
+      <div class="foot-brand">
+        <img src="assets/logo.png" alt="Marble Charms logo">
+        <span class="brand-name display">Marble Charms</span>
+      </div>
+      <p class="foot-tagline">Personalised &amp; handmade with love ✨</p>
+    </div>
+
+    <div>
+      <h4>Get in touch</h4>
+      <ul>
+        <li><a id="foot-wa" href="#" target="_blank" rel="noopener">WhatsApp: +91 97415 31531</a></li>
+        <li><a href="https://instagram.com/marbles.charms" target="_blank" rel="noopener">@marbles.charms on Instagram</a></li>
+      </ul>
+    </div>
+
+    <div>
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#shop">Shop</a></li>
+        <li><a href="#story">Our Story</a></li>
+        <li><a href="#order">How to Order</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="wrap footer-bottom">
+    &copy; <span id="year"></span> Marble Charms. Made with love, one charm at a time.
+  </div>
+</footer>
+
+<a class="float-wa" id="float-wa" href="#" target="_blank" rel="noopener" aria-label="Chat with Marble Charms on WhatsApp">
+  <svg viewBox="0 0 24 24" fill="#FCE4EE"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.2-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.6l.4-.4c.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.8-2-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s1 2.6 1.1 2.7c.1.2 2 3 4.7 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.6-.7 1.9-1.3.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/><path d="M12 2C6.5 2 2 6.4 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.2 5.1 1.2 5.5 0 10-4.4 10-10S17.5 2 12 2zm0 18.2c-1.6 0-3.2-.4-4.5-1.2l-.3-.2-3 .8.8-2.9-.2-.3C4 15.1 3.6 13.6 3.6 12 3.6 7.3 7.4 3.6 12 3.6s8.4 3.8 8.4 8.4-3.8 8.2-8.4 8.2z"/></svg>
+</a>
+
+<script>
+  // ---- WhatsApp config ----
+  var WHATSAPP_NUMBER = "919741531531"; // +91 97415 31531, digits only with country code
+  var DEFAULT_MESSAGE = "Hi Marble Charms! ✨ I'd love to order a charm.";
+
+  function buildWaLink(item){
+    var msg = item
+      ? "Hi Marble Charms! ✨ I'd love to order a " + item + "."
+      : DEFAULT_MESSAGE;
+    return "https://wa.me/" + WHATSAPP_NUMBER + "?text=" + encodeURIComponent(msg);
+  }
+
+  // Set default links
+  ["nav-wa","hero-wa","order-wa","float-wa","foot-wa"].forEach(function(id){
+    var el = document.getElementById(id);
+    if (el) el.href = buildWaLink();
+  });
+
+  // Charm bar buttons + product card order links carry the specific item
+  document.querySelectorAll(".charm, .order-link").forEach(function(el){
+    el.addEventListener("click", function(e){
+      e.preventDefault();
+      var item = el.getAttribute("data-item");
+      window.open(buildWaLink(item), "_blank", "noopener");
+    });
+  });
+
+  document.getElementById("year").textContent = new Date().getFullYear();
+
+  // Mobile menu toggle: reuse nav links in a simple dropdown
+  var toggle = document.getElementById("menu-toggle");
+  toggle.addEventListener("click", function(){
+    var links = document.querySelector("nav.links");
+    var expanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", String(!expanded));
+    links.style.display = expanded ? "none" : "flex";
+    links.style.flexDirection = "column";
+    links.style.position = "absolute";
+    links.style.top = "64px";
+    links.style.right = "24px";
+    links.style.background = "#FFF9F6";
+    links.style.padding = "16px 22px";
+    links.style.borderRadius = "16px";
+    links.style.boxShadow = "0 10px 30px rgba(139,46,77,0.12)";
+    links.style.gap = "14px";
+  });
+</script>
+
+</body>
+</html>
