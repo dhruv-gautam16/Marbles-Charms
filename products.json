@@ -1,0 +1,198 @@
+{
+  "categories": [
+    {
+      "id": "bag-charm",
+      "name": "Bag Charms",
+      "icon": "👜",
+      "tagline": "Clip-on charms for totes, backpacks & everyday bags.",
+      "products": [
+        {
+          "id": "product1",
+          "name": "Cherry Blossom Bag Charm",
+          "price": 349,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "Soft pink beads with a little brass bell.",
+          "description": "A dainty cluster of pink glass beads finished with a tiny brass bell and a sturdy clip that won't scratch your bag's hardware. Clips on and off in seconds.",
+          "images": [
+            "assets/bag-charm/product1/1.jpg",
+            "assets/bag-charm/product1/2.jpg",
+            "assets/bag-charm/product1/3.jpg"
+          ],
+          "rating": 4.8,
+          "reviewCount": 2,
+          "inStock": true,
+          "reviews": [
+            { "name": "Ayesha R.", "rating": 5, "date": "2026-06-12", "text": "So much prettier in person, and it survived being tossed around in my tote all week." },
+            { "name": "Meher K.", "rating": 4.5, "date": "2026-05-30", "text": "Lovely little charm, arrived well packed. Would love more colour options." }
+          ]
+        },
+        {
+          "id": "product2",
+          "name": "Gingham Bow Bag Charm",
+          "price": 399,
+          "compareAtPrice": 449,
+          "currency": "INR",
+          "shortDescription": "A pink gingham bow with a pearl drop.",
+          "description": "A checked ribbon bow paired with a single freshwater pearl drop, on a gold-tone clip. A quiet, girly little detail for any bag.",
+          "images": [
+            "assets/bag-charm/product2/1.jpg",
+            "assets/bag-charm/product2/2.jpg",
+            "assets/bag-charm/product2/3.jpg"
+          ],
+          "rating": 5,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Priya S.", "rating": 5, "date": "2026-07-02", "text": "Exactly like the photos, the bow holds its shape really well." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "phone-charm",
+      "name": "Phone Charms",
+      "icon": "📱",
+      "tagline": "Sweet little charms for your phone strap or case ring.",
+      "products": [
+        {
+          "id": "product1",
+          "name": "Mini Heart Phone Charm",
+          "price": 249,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "A tiny enamel heart on a beaded loop.",
+          "description": "A pocket-sized enamel heart charm threaded onto a beaded loop that clips straight onto a phone strap or case ring. Lightweight enough to wear every day.",
+          "images": [
+            "assets/phone-charm/product1/1.jpg",
+            "assets/phone-charm/product1/2.jpg",
+            "assets/phone-charm/product1/3.jpg"
+          ],
+          "rating": 4.7,
+          "reviewCount": 2,
+          "inStock": true,
+          "reviews": [
+            { "name": "Divya N.", "rating": 5, "date": "2026-06-20", "text": "Cutest little thing, gets compliments every time I take a call." },
+            { "name": "Rhea M.", "rating": 4.5, "date": "2026-06-01", "text": "Good quality for the price, just wish the loop was slightly bigger." }
+          ]
+        },
+        {
+          "id": "product2",
+          "name": "Star Cluster Phone Charm",
+          "price": 279,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "Gold star beads on a delicate chain.",
+          "description": "Three tiny star beads on a fine gold-tone chain, finished with a secure lobster clasp so it stays put in your bag or pocket.",
+          "images": [
+            "assets/phone-charm/product2/1.jpg",
+            "assets/phone-charm/product2/2.jpg",
+            "assets/phone-charm/product2/3.jpg"
+          ],
+          "rating": 4.9,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Farah I.", "rating": 5, "date": "2026-07-08", "text": "Delicate and dainty, exactly what I wanted." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "keychain-charm",
+      "name": "Keychain Charms",
+      "icon": "🗝️",
+      "tagline": "Give your keys some personality with a charm of their own.",
+      "products": [
+        {
+          "id": "product1",
+          "name": "Daisy Chain Keychain",
+          "price": 299,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "Hand-strung daisies on a sturdy keyring.",
+          "description": "A row of little clay daisies strung by hand onto a strong split ring, sized to hold a full set of keys without sagging.",
+          "images": [
+            "assets/keychain-charm/product1/1.jpg",
+            "assets/keychain-charm/product1/2.jpg",
+            "assets/keychain-charm/product1/3.jpg"
+          ],
+          "rating": 4.6,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Kavya T.", "rating": 4.5, "date": "2026-05-18", "text": "Really sturdy, wasn't expecting that at this size." }
+          ]
+        },
+        {
+          "id": "product2",
+          "name": "Initial Charm Keychain",
+          "price": 329,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "A single hand-painted initial charm.",
+          "description": "One hand-painted wooden initial on a beaded keyring — tell us the letter when you order. A simple, personal everyday piece.",
+          "images": [
+            "assets/keychain-charm/product2/1.jpg",
+            "assets/keychain-charm/product2/2.jpg",
+            "assets/keychain-charm/product2/3.jpg"
+          ],
+          "rating": 5,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Sanya B.", "rating": 5, "date": "2026-06-27", "text": "Ordered the letter S, painting was so neat and precise." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "custom-charm",
+      "name": "Custom & Personalised",
+      "icon": "💜",
+      "tagline": "Initials, colours, or your own idea — made to order.",
+      "products": [
+        {
+          "id": "product1",
+          "name": "Custom Initial Charm",
+          "price": 379,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "Your initial, your colours, made to order.",
+          "description": "Tell us your initial and preferred colour palette, and we'll hand-make a one-of-a-kind charm just for you. Please allow a few extra days for custom orders.",
+          "images": [
+            "assets/custom-charm/product1/1.jpg",
+            "assets/custom-charm/product1/2.jpg",
+            "assets/custom-charm/product1/3.jpg"
+          ],
+          "rating": 5,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Ira D.", "rating": 5, "date": "2026-07-10", "text": "They matched my exact colour reference, so happy with it." }
+          ]
+        },
+        {
+          "id": "product2",
+          "name": "Birthstone Charm",
+          "price": 449,
+          "compareAtPrice": null,
+          "currency": "INR",
+          "shortDescription": "A charm featuring your birthstone colour.",
+          "description": "A dainty charm featuring beads in your birthstone colour, made to order. Let us know your birth month when you message us.",
+          "images": [
+            "assets/custom-charm/product2/1.jpg",
+            "assets/custom-charm/product2/2.jpg",
+            "assets/custom-charm/product2/3.jpg"
+          ],
+          "rating": 4.8,
+          "reviewCount": 1,
+          "inStock": true,
+          "reviews": [
+            { "name": "Neha V.", "rating": 5, "date": "2026-06-15", "text": "Beautiful colour match for my birthstone, will order again." }
+          ]
+        }
+      ]
+    }
+  ]
+}
