@@ -8,43 +8,25 @@
       "products": [
         {
           "id": "product1",
-          "name": "Cherry Blossom Bag Charm",
-          "price": 349,
+          "name": "Harry Potter Charm",
+          "price": 100,
           "compareAtPrice": null,
           "currency": "INR",
-          "shortDescription": "Soft pink beads with a little brass bell.",
-          "description": "A dainty cluster of pink glass beads finished with a tiny brass bell and a sturdy clip that won't scratch your bag's hardware. Clips on and off in seconds.",
+          "shortDescription": "A magical Harry Potter-inspired charm for fans who want to carry a little piece of the wizarding world wherever they go.",
+          "description": "Add a touch of wizarding magic to your everyday style with the Harry Potter Charm. Inspired by the enchanting world of Hogwarts, this charming accessory is perfect for every Potterhead. Attach it to your phone, handbag, backpack, keys, or wallet and carry a little magic with you wherever your adventures take you. A fun and thoughtful gift for Harry Potter fans of all ages.",
           "images": [
-            "assets/bag-charm/product1/1.jpg",
-            "assets/bag-charm/product1/2.jpg",
-            "assets/bag-charm/product1/3.jpg"
-          ],
-          "rating": 4.8,
-          "reviewCount": 2,
-          "inStock": true,
-          "reviews": [
-            { "name": "Ayesha R.", "rating": 5, "date": "2026-06-12", "text": "So much prettier in person, and it survived being tossed around in my tote all week." },
-            { "name": "Meher K.", "rating": 4.5, "date": "2026-05-30", "text": "Lovely little charm, arrived well packed. Would love more colour options." }
-          ]
-        },
-        {
-          "id": "product2",
-          "name": "Gingham Bow Bag Charm",
-          "price": 399,
-          "compareAtPrice": 449,
-          "currency": "INR",
-          "shortDescription": "A pink gingham bow with a pearl drop.",
-          "description": "A checked ribbon bow paired with a single freshwater pearl drop, on a gold-tone clip. A quiet, girly little detail for any bag.",
-          "images": [
-            "assets/bag-charm/product2/1.jpg",
-            "assets/bag-charm/product2/2.jpg",
-            "assets/bag-charm/product2/3.jpg"
+            "assets/bag-charm/product1/1.jpg"
           ],
           "rating": 5,
           "reviewCount": 1,
           "inStock": true,
           "reviews": [
-            { "name": "Priya S.", "rating": 5, "date": "2026-07-02", "text": "Exactly like the photos, the bow holds its shape really well." }
+            {
+              "name": "Aanya M.",
+              "rating": 5,
+              "date": "2026-08-14",
+              "text": "Absolutely adorable! Such a cute little charm for any Harry Potter fan."
+            }
           ]
         }
       ]
@@ -99,7 +81,7 @@
           "compareAtPrice": null,
           "currency": "INR",
           "shortDescription": "A handcrafted evil eye phone charm featuring deep blue beads, designed to bring a touch of style, positivity, and protection wherever you go.",
-          "description": "Carry a symbol of protection with you every day. The Blue Guardian Charm is handcrafted with classic evil eye beads and shimmering crystal accents, inspired by the timeless belief in warding off negative energy and attracting good fortune. Its minimalist design makes it the perfect accessory for your phone, bag, keys, or wallet.Whether you're gifting it to someone special or keeping it for yourself, this charm is a stylish reminder to carry positive energy wherever life takes you.",
+          "description": "Carry a symbol of protection with you every day. The Blue Guardian Charm is handcrafted with classic evil eye beads and shimmering crystal accents, inspired by the timeless belief in warding off negative energy and attracting good fortune. Its minimalist design makes it the perfect accessory for your phone, bag, keys, or wallet. Whether you're gifting it to someone special or keeping it for yourself, this charm is a stylish reminder to carry positive energy wherever life takes you.",
           "images": [
             "assets/phone-charm/product3/1.jpg"
           ],
@@ -110,48 +92,395 @@
             { "name": "Divya N.", "rating": 5, "date": "2026-06-20", "text": "Cutest little thing, gets compliments every time I take a call." },
             { "name": "Rhea M.", "rating": 4.5, "date": "2026-06-01", "text": "Good quality for the price, just wish the loop was slightly bigger." }
           ]
-        }
-       
+        },
+        {
+  "id": "product4",
+  "name": "Cherry Blossom Bloom Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A vibrant floral phone charm with ruby-red beads, delicate leaf accents, and a playful flower drop.",
+  "description": "Add a little floral charm to your everyday essentials with the Cherry Blossom Bloom Phone Charm. Featuring faceted red beads, soft pink accents, crystal-clear details, green leaf beads, and a beautiful flower-shaped drop, this handcrafted charm has a playful and romantic feel. Perfect for attaching to your phone, it adds a colorful little detail that makes your everyday accessory feel uniquely yours.",
+  "images": [
+    "assets/phone-charm/product4/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Sanya P.",
+      "rating": 5,
+      "date": "2026-08-25",
+      "text": "The flowers and beads are so pretty! It looks really cute on my phone."
+    }
+  ]
+},
+{
+  "id": "product5",
+  "name": "Aqua Heart Phone Charm",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A dreamy aqua-blue phone charm featuring faceted beads, silver accents, and a statement heart pendant.",
+  "description": "Add a touch of dreamy color to your phone with the Aqua Heart Phone Charm. Handcrafted with beautiful aqua and sky-blue beads, shimmering silver accents, and a detailed heart-shaped pendant, this charm has a sweet yet elegant look. The combination of soft blue tones and metallic details makes it a perfect everyday accessory for your phone, adding a little sparkle and personality wherever you go.",
+  "images": [
+    "assets/phone-charm/product5/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Kavya R.",
+      "rating": 5,
+      "date": "2026-08-28",
+      "text": "The blue heart is gorgeous and the charm looks so pretty on my phone!"
+    }
+  ]
+},
+{
+  "id": "product6",
+  "name": "Pastel Love Phone Charm",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A dreamy pastel phone charm featuring pink and blue beads, delicate flowers, and a playful heart-shaped pendant.",
+  "description": "Add a soft, dreamy touch to your phone with the Pastel Love Phone Charm. Handcrafted with a beautiful mix of pastel pink and blue beads, translucent floral accents, sparkling details, and a statement heart pendant, this charm is full of color and personality. Perfect for anyone who loves cute, playful accessories, it adds a sweet little finishing touch to your phone while making it uniquely yours.",
+  "images": [
+    "assets/phone-charm/product6/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Riya S.",
+      "rating": 5,
+      "date": "2026-08-30",
+      "text": "The pastel colors are so pretty and the heart pendant makes it extra cute!"
+    }
+  ]
+},
+{
+  "id": "product7",
+  "name": "Lavender Butterfly Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A dreamy lavender and blue phone charm featuring delicate butterfly, bow, and feather-inspired silver accents.",
+  "description": "Add a soft and whimsical touch to your phone with the Lavender Butterfly Phone Charm. Handcrafted with pastel lavender and blue beads, this charming accessory is finished with delicate butterfly, bow, and feather-inspired silver charms for a playful yet elegant look. Perfect for anyone who loves dreamy pastel colors and detailed accessories, it adds a unique little sparkle to your everyday phone.",
+  "images": [
+    "assets/phone-charm/product7/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Nisha A.",
+      "rating": 5,
+      "date": "2026-08-31",
+      "text": "The lavender and blue beads look beautiful together. The tiny charms are such a cute touch!"
+    }
+  ]
+},
+{
+  "id": "product8",
+  "name": "Yin Yang Heart Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A striking black and white phone charm featuring faceted beads, pearl accents, and a Yin Yang heart pendant.",
+  "description": "Bring balance and style to your everyday essentials with the Yin Yang Heart Phone Charm. Handcrafted with glossy black faceted beads, soft white pearl beads, and a beautiful Yin Yang heart pendant, this charm combines bold contrast with an elegant finish. Perfect for attaching to your phone, it adds a unique and meaningful touch while complementing any style.",
+  "images": [
+    "assets/phone-charm/product8/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Tanya M.",
+      "rating": 5,
+      "date": "2026-09-01",
+      "text": "Love the black and white combination! The heart pendant makes it look so elegant."
+    }
+  ]
+},
+{
+  "id": "product9",
+  "name": "Golden Garden Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A delicate floral phone charm featuring deep purple beads, golden seed beads, and leafy accents.",
+  "description": "Bring a touch of garden-inspired charm to your phone with the Golden Garden Phone Charm. Handcrafted with rich purple faceted beads surrounded by tiny golden beads, this elegant charm is finished with delicate green leaf and silver accents. Its long, floral-inspired design adds a graceful and eye-catching detail to your phone, perfect for anyone who loves nature-inspired and colorful accessories.",
+  "images": [
+    "assets/phone-charm/product9/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Aarohi S.",
+      "rating": 5,
+      "date": "2026-09-02",
+      "text": "The purple and gold combination is beautiful. It looks so elegant hanging from my phone."
+    }
+  ]
+},
+{
+  "id": "product10",
+  "name": "Golden Stars Phone Charm",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A sparkling golden phone charm featuring metallic beads, faceted accents, and playful star-shaped charms.",
+  "description": "Add a little starlight to your everyday style with the Golden Stars Phone Charm. Handcrafted with warm golden beads, shimmering faceted accents, and multiple star-shaped charms, this piece creates a fun and eye-catching look. Perfect for attaching to your phone, it adds a touch of sparkle and personality to your everyday accessory while making a lovely little gift for someone who loves all things celestial.",
+  "images": [
+    "assets/phone-charm/product10/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Maya S.",
+      "rating": 5,
+      "date": "2026-09-03",
+      "text": "The little stars are so pretty and shiny. It looks amazing on my phone!"
+    }
+  ]
+},
+{
+  "id": "product11",
+  "name": "Blue Evil Eye Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A bold blue evil eye phone charm featuring glossy beads, faceted blue accents, and protective eye motifs.",
+  "description": "Add a stylish touch of protection to your phone with the Blue Evil Eye Phone Charm. Handcrafted with deep blue beads, sparkling faceted accents, and multiple classic evil eye beads, this charm creates a striking blue-and-black look. Inspired by the timeless evil eye symbol, it makes a fun everyday accessory for your phone while adding a unique pop of color and personality.",
+  "images": [
+    "assets/phone-charm/product11/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Neha P.",
+      "rating": 5,
+      "date": "2026-09-04",
+      "text": "The blue beads look amazing and the evil eye details are so cute!"
+    }
+  ]
+},
+{
+  "id": "product12",
+  "name": "Ocean Treasure Phone Charm",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A dreamy ocean-inspired phone charm featuring turquoise beads, delicate gold accents, and a beautiful underwater-inspired pendant.",
+  "description": "Carry a little piece of the ocean with you with the Ocean Treasure Phone Charm. Handcrafted with shimmering turquoise and aqua beads, delicate green accents, crystal-clear details, and a charming gold-toned underwater-inspired pendant, this accessory has a playful coastal feel. Perfect for adding a pop of color and personality to your phone, it is a lovely choice for anyone who loves ocean-inspired and whimsical accessories.",
+  "images": [
+    "assets/phone-charm/product12/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Simran K.",
+      "rating": 5,
+      "date": "2026-09-05",
+      "text": "The aqua beads are gorgeous and the little ocean pendant is such a cute detail!"
+    }
+  ]
+},
+{
+  "id": "product13",
+  "name": "Ocean Fish Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A refreshing ocean-inspired phone charm featuring aqua and blue beads, pearl accents, and a cute fish centerpiece.",
+  "description": "Bring a splash of ocean vibes to your everyday style with the Ocean Fish Phone Charm. Handcrafted with aqua, turquoise, and soft blue beads, delicate pearl accents, and a charming fish-shaped centerpiece, this accessory has a fresh and playful feel. Perfect for attaching to your phone, it adds a subtle pop of color and a fun coastal touch to your everyday look.",
+  "images": [
+    "assets/phone-charm/product13/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Anika R.",
+      "rating": 5,
+      "date": "2026-09-06",
+      "text": "The little fish is adorable and the blue beads look so pretty together!"
+    }
+  ]
+},
+{
+  "id": "product14",
+  "name": "Midnight Magic Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A mystical blue and black phone charm featuring faceted beads, silver accents, and a dreamy purple crystal pendant.",
+  "description": "Add a touch of midnight magic to your phone with this handcrafted charm. Featuring deep blue and black faceted beads, shimmering silver accents, and a beautiful translucent purple pendant, this piece has a mysterious and elegant feel. The delicate silver charms add extra detail, making it a unique accessory for anyone who loves darker tones, sparkle, and a little bit of magic.",
+  "images": [
+    "assets/phone-charm/product14/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Kiara M.",
+      "rating": 5,
+      "date": "2026-09-07",
+      "text": "The purple pendant is beautiful and the blue and black beads look amazing together!"
+    }
+  ]
+},
+{
+  "id": "product15",
+  "name": "Mystic Wizard Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A magical gold-tone phone charm featuring celestial, feather, wand, and potion-inspired charms with sparkling accents.",
+  "description": "Add a little enchantment to your everyday style with the Mystic Wizard Phone Charm. Featuring a delicate gold-tone chain, sparkling crystal beads, and a collection of whimsical charms inspired by magic, including a wand, feather, star, and tiny potion bottle. Its vintage-inspired design makes it a unique accessory for your phone, perfect for anyone who loves fantasy, mystery, and a touch of magic.",
+  "images": [
+    "assets/phone-charm/product15/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Ira S.",
+      "rating": 5,
+      "date": "2026-09-08",
+      "text": "The tiny charms are so detailed and the gold chain makes it look really pretty!"
+    }
+  ]
+},
+{
+  "id": "product16",
+  "name": "Dragon Duo Phone Charm",
+  "price": 200,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A playful dragon-themed phone charm featuring crystal beads, letter accents, and contrasting white and black dragon pendants.",
+  "description": "Add a touch of fantasy to your phone with the Dragon Duo Phone Charm. Featuring two contrasting dragon pendants in white and black, this handcrafted charm is decorated with sparkling crystal beads and playful letter accents. The mix of dark and light tones gives it a fun, eye-catching look that is perfect for anyone who loves dragons, fantasy, and unique accessories.",
+  "images": [
+    "assets/phone-charm/product16/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Aditi R.",
+      "rating": 5,
+      "date": "2026-09-09",
+      "text": "The two little dragons are adorable! The beads make the whole charm look so cute."
+    }
+  ]
+},
+{
+  "id": "product17",
+  "name": "Ruby Heart Phone Charm",
+  "price": 100,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A romantic red and silver phone charm featuring faceted beads, a sparkling heart pendant, and delicate silver accents.",
+  "description": "Add a little sparkle and romance to your phone with the Ruby Heart Phone Charm. Handcrafted with vibrant red faceted beads, shimmering silver-toned beads, and a beautiful heart-shaped pendant, this charm has a bold yet elegant look. Finished with tiny decorative accents, it is perfect for adding a touch of love and personality to your everyday phone.",
+  "images": [
+    "assets/phone-charm/product17/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Mehak S.",
+      "rating": 5,
+      "date": "2026-09-10",
+      "text": "The red heart is so pretty and the silver beads make it sparkle beautifully!"
+    }
+  ]
+},
+{
+  "id": "product18",
+  "name": "Golden Snickers Phone Charm",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A playful Snickers-inspired phone charm featuring golden beads, pastel accents, and a mini candy bar centerpiece.",
+  "description": "Sweeten up your everyday style with the Golden Snickers Phone Charm. Handcrafted with shimmering golden beads, translucent pastel accents, and a fun mini Snickers candy bar centerpiece, this charm is made for anyone who loves cute and quirky accessories. Attach it to your phone and add a playful little detail to your everyday look.",
+  "images": [
+    "assets/phone-charm/product18/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Riya M.",
+      "rating": 5,
+      "date": "2026-09-10",
+      "text": "The tiny Snickers is so cute! Definitely one of the most fun charms I've bought."
+    }
+  ]
+}
       ]
     },
     {
-      "id": "keychain-charm",
-      "name": "Keychain Charms",
-      "icon": "🗝️",
-      "tagline": "Give your keys some personality with a charm of their own.",
+      "id": "fridge-magnet-charm",
+      "name": "Fridge Magnets",
+      "icon": "🧲",
+      "tagline": "Give your fridge some personality with a magnet of its own.",
       "products": [
         {
-          "id": "product1",
-          "name": "Daisy Chain Keychain",
-          "price": 299,
-          "compareAtPrice": null,
-          "currency": "INR",
-          "shortDescription": "Hand-strung daisies on a sturdy keyring.",
-          "description": "A row of little clay daisies strung by hand onto a strong split ring, sized to hold a full set of keys without sagging.",
-          "images": [
-            "assets/keychain-charm/product1/1.jpg",
-            "assets/keychain-charm/product1/2.jpg",
-            "assets/keychain-charm/product1/3.jpg"
-          ],
-          "rating": 4.6,
-          "reviewCount": 1,
-          "inStock": true,
-          "reviews": [
-            { "name": "Kavya T.", "rating": 4.5, "date": "2026-05-18", "text": "Really sturdy, wasn't expecting that at this size." }
-          ]
-        },
+  "id": "product2",
+  "name": "Pink Kitty Fridge Magnet",
+  "price": 150,
+  "compareAtPrice": null,
+  "currency": "INR",
+  "shortDescription": "A cute handmade pink kitty fridge magnet with a playful pixel-bead design and adorable details.",
+  "description": "Add a little cuteness to your fridge with this adorable handmade Pink Kitty Fridge Magnet. Crafted in a playful pixel-bead style, this charming cat features soft pink accents, a sweet face, and a cozy pastel look. Perfect for decorating your fridge, holding small notes, or gifting to a cat lover, it is a fun little piece that brings personality to any kitchen.",
+  "images": [
+    "assets/fridge-magnet/product1/1.jpg"
+  ],
+  "rating": 5,
+  "reviewCount": 1,
+  "inStock": true,
+  "reviews": [
+    {
+      "name": "Ishita K.",
+      "rating": 5,
+      "date": "2026-08-22",
+      "text": "Such a cute little kitty! Looks adorable on my fridge."
+    }
+  ]
+},
         {
           "id": "product2",
-          "name": "Initial Charm Keychain",
+          "name": "Initial Charm Magnet",
           "price": 329,
           "compareAtPrice": null,
           "currency": "INR",
-          "shortDescription": "A single hand-painted initial charm.",
-          "description": "One hand-painted wooden initial on a beaded keyring — tell us the letter when you order. A simple, personal everyday piece.",
+          "shortDescription": "A single hand-painted initial magnet.",
+          "description": "One hand-painted wooden initial mounted on a magnet backing — tell us the letter when you order. A simple, personal everyday piece.",
           "images": [
-            "assets/keychain-charm/product2/1.jpg",
-            "assets/keychain-charm/product2/2.jpg",
-            "assets/keychain-charm/product2/3.jpg"
+            "assets/fridge-magnet-charm/product2/1.jpg",
+            "assets/fridge-magnet-charm/product2/2.jpg",
+            "assets/fridge-magnet-charm/product2/3.jpg"
           ],
           "rating": 5,
           "reviewCount": 1,
