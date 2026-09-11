@@ -113,12 +113,19 @@
     flex-wrap: wrap;
     gap: 10px;
   }
-  .chip-group input{
+  .chip-group input[type="radio"]{
     position: absolute;
-    opacity: 0;
-    pointer-events: none;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    white-space: nowrap;
+    border: 0;
   }
   .chip-group .chip{
+    display: inline-block;
     font-family: "Quicksand", sans-serif;
     font-weight: 600;
     font-size: 0.92rem;
@@ -128,7 +135,7 @@
     border-radius: 999px;
     padding: 9px 18px;
     cursor: pointer;
-    transition: background .15s ease, border-color .15s ease;
+    transition: background .15s ease, border-color .15s ease, box-shadow .15s ease;
   }
   .chip-group input:checked + .chip{
     background: var(--rose);
@@ -136,6 +143,7 @@
   }
   .chip-group input:focus-visible + .chip{
     border-color: var(--rose);
+    box-shadow: 0 0 0 3px rgba(139,46,77,0.15);
   }
 
   .qty-row{
