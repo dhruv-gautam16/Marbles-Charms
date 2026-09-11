@@ -14,6 +14,27 @@ function buildProductMessage(product){
   return "Hi Marble Charms! ✨ I'd love to order the " + name + price + ".";
 }
 
+// Build a WhatsApp message from the custom charm request form
+function buildCustomOrderMessage(fields){
+  var lines = [
+    "Hi Marble Charms! ✨ I'd love a custom charm made.",
+    "",
+    "Name: " + fields.name,
+    "Charm type: " + fields.charmType
+  ];
+
+  if (fields.theme) lines.push("Colours/theme: " + fields.theme);
+  if (fields.personalisation) lines.push("Personalisation: " + fields.personalisation);
+
+  lines.push("Idea: " + fields.idea);
+
+  if (fields.reference) lines.push("Reference: " + fields.reference);
+
+  lines.push("Quantity: " + fields.quantity);
+
+  return buildWaLink(lines.join("\n"));
+}
+
 function renderStars(rating){
   rating = Math.round((rating || 0) * 2) / 2; // nearest half
   var full = Math.floor(rating);
