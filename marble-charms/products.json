@@ -447,7 +447,7 @@
       "tagline": "Give your fridge some personality with a magnet of its own.",
       "products": [
         {
-  "id": "product2",
+  "id": "product1",
   "name": "Pink Kitty Fridge Magnet",
   "price": 150,
   "compareAtPrice": null,
@@ -468,27 +468,7 @@
       "text": "Such a cute little kitty! Looks adorable on my fridge."
     }
   ]
-},
-        {
-          "id": "product2",
-          "name": "Initial Charm Magnet",
-          "price": 329,
-          "compareAtPrice": null,
-          "currency": "INR",
-          "shortDescription": "A single hand-painted initial magnet.",
-          "description": "One hand-painted wooden initial mounted on a magnet backing — tell us the letter when you order. A simple, personal everyday piece.",
-          "images": [
-            "assets/fridge-magnet-charm/product2/1.jpg",
-            "assets/fridge-magnet-charm/product2/2.jpg",
-            "assets/fridge-magnet-charm/product2/3.jpg"
-          ],
-          "rating": 5,
-          "reviewCount": 1,
-          "inStock": true,
-          "reviews": [
-            { "name": "Sanya B.", "rating": 5, "date": "2026-06-27", "text": "Ordered the letter S, painting was so neat and precise." }
-          ]
-        }
+}
       ]
     },
     {
